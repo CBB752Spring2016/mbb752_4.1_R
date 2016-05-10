@@ -1,4 +1,4 @@
-# Distcalc.rmd
+# README for Calculating Distance Between Alpha Carbons in a PDB File (Distcalc.rmd)
 
 ## General
 
@@ -22,3 +22,7 @@ The R tool that accomplishes this task is named distcalc. Distcalc takes 5 requi
 ```{r}
 distcalc(inputfile = "1a3n.pdb", index1 = 43, index2 = 44, outops = 0, outputfile = "output.txt") 
 ```
+### Other
+
+* [CBB 752 Final Project Website](http://cbb752spring2016.github.io/)
+* [Distcalc.py](https://github.com/peter-mm-williams/Python_Distance_Calculation), brought by [Peter](https://github.com/peter-mm-williams)
